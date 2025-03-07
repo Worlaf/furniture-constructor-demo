@@ -16,7 +16,7 @@ type ResourcesState = {
     loadMaterialsTextures: (materialNames: string[]) => void;
 };
 
-const rootPath = "./assets/";
+const rootPath = "/assets/";
 
 export const useResourcesState = create<ResourcesState>((set) => ({
     materialTextures: {},
